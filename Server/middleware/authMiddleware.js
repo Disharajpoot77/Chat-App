@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
       return res.status(401).json({ message: "No token" });
     }
 
-    const token = header.split(" ")[1];
+    const token= header.split(" ")[1];
 
     const decoded = jwt.verify(token, "secret");
 
