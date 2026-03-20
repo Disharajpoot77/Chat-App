@@ -108,7 +108,7 @@
     border-top: 1px solid #ddd;
   }
   
-  .input-area input {
+  .input-area input  {
     flex: 1;
     padding: 10px;
     border-radius: 20px;
