@@ -136,7 +136,7 @@ export default function Chat() {
     return () => s.disconnect();
   }, []);
 
-  const send = () => {
+  const send= () => {
     if (!message || !selectedUser) return;
 
     socket.emit("private_message", {
