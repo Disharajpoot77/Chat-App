@@ -32,7 +32,7 @@ export default function Users() {
   return (
     <div className="users-page">
       {/* header */}
-      <div className="users-header">
+      <div className ="users-header">
         <h2>Chats</h2>
         <button onClick={logout}>Logout</button>
       </div>
