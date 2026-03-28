@@ -13,7 +13,7 @@ exports.signup= async (req, res) => {
       return res.status(400).send("All fields required");
     }
 
-    const user= await User.findOne({ email });
+     const user= await User.findOne({ email });
     if (user) return res.status(400).send("User already exists");
 
     const hashedPass = await bcrypt.hash(password, 10);
