@@ -41,7 +41,7 @@ export default function Users() {
       <div className="users-list">
         {users.map((u) => (
           <div
-            key={u._id}
+             key={u._id}
             className="user-item"
             onClick={() => nav(`/chat/${u.username}`)}
           >
