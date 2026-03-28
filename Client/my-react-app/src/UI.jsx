@@ -137,7 +137,7 @@ export default function Chat() {
   }, []);
 
   const send= () => {
-    if (!message || !selectedUser) return;
+     if (!message || !selectedUser) return;
 
     socket.emit("private_message", {
       to: selectedUser,
