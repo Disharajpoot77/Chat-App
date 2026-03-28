@@ -6,6 +6,6 @@ exports.getUsers = async (req, res) => {
     res.json(users);
   } catch(err) {
     console.log("Users error:", err);
-    res.status(500).json({ message: "Server error" });
+     res.status(500).json({ message: "Server error" });
   }
 };
