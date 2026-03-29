@@ -7,7 +7,7 @@ module.exports = (io) => {
     const token = socket.handshake.auth.token;
 
     try {
-       const user = jwt.verify(token, "secret");
+        const user = jwt.verify(token, "secret");
       socket.user = user;
       next();
     } catch {
