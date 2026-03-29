@@ -19,7 +19,7 @@ const initSocket = require("./sockets/sockets");
 
 connectDB();
 
-const app = express();
+const  app = express();
 app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
 
