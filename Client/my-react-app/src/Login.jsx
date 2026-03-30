@@ -122,7 +122,7 @@ export default function Login() {
   return
    (
     <div  className="auth-container">
-      <div  className="auth-card">
+       <div  className="auth-card">
         <h2>Welcome Back 👋</h2>
 
         <input
