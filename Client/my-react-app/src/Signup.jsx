@@ -119,9 +119,9 @@ export default function Signup() {
   const [loading, setLoading] = useState(false);
 
    const submit = async () => {
-    setError("");
-    setMsg("");
-    setLoading(true);
+     setError("");
+     setMsg("");
+     setLoading(true);
 
     try {
         const res= await fetch("http://localhost:5173/api/signup", {
