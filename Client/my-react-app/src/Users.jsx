@@ -39,7 +39,7 @@ export default function Users() {
 
       {/* list */}
       <div className="users-list">
-        {users.map((u) => (
+         {users.map((u) => (
           <div
              key={u._id}
             className="user-item"
